@@ -10,3 +10,48 @@ marrom =  #916953
 
 */
 
+* {
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body, html {
+    background-color: #38686A;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* esse comando faz com que o objeto centralize ao centro da pagina*/
+    overflow: hidden; /*esconde tudo o que estiver fora da borda*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.638);
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #38686A url(../imagens/cubo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center; /* alinha o objeto*/
+    height: 200px;
+
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
