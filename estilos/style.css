@@ -11,7 +11,7 @@ marrom =  #916953
 */
 
 * {
-   font-family: 'Arial Narrow Bold', sans-serif; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
    padding: 0px;
    margin: 0px;
    box-sizing: border-box;
@@ -37,7 +37,7 @@ section#login {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.638);
 
     background-color: white;
-    width: 260px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
 
